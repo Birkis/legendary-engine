@@ -15,7 +15,9 @@
 <body>
 
   <main>
-    <nav>
+    <nav class="pad-40">
+
+      <div class="logo"><img src="./assets/logo.svg" alt=""></div>
       <button class="button ff-primary">Free Consultation</button>
     </nav>
     <section id="heading" >
@@ -25,7 +27,7 @@
           </p>
         </div>
     </section>
-    <section>
+    <section id="card-grid" class="">
     <!-- GRID GOES HERE -->
       <div class="card-grid">
         <div class="card stacked" id="graphic-design">
@@ -66,19 +68,24 @@
         </div>
       </div>
     </section>
-    <section id="meet-amy">
+    <div class="spacer-50"></div>
+    </div>
+    <section id="meet-amy" class="">
     <!-- I'M AMY  -->
-      <div id="amy-profile-picture">
-        <img src="./assets/image-amy.webp" alt="">
-      </div>
-      <div class="text-content">
-        <p class="ff-primary fs-xl lh-600">  I’m Amy, and I’d love to work on your next project
-        </p>
-        <p class="ff-body"> I love working with others to create beautiful design solutions. I’ve designed everything from brand illustrations 
-          to complete mobile apps. I’m also handy with a camera!</p>
-        <button class="button ff-primary">Free consultation</button>
+      <div class="content">
+        <div id="amy-profile-picture">
+          <img src="./assets/image-amy.webp" alt="">
+        </div>
+        <div class="text-content">
+          <p class="ff-primary fs-xl lh-600 m-vert-20">  I’m Amy, and I’d love to work on your next project
+          </p>
+          <p class="ff-body m-vert-20"> I love working with others to create beautiful design solutions. I’ve designed everything from brand illustrations
+            to complete mobile apps. I’m also handy with a camera!</p>
+          <button class="button ff-primary m-8 bg-red-400">Free consultation</button>
+        </div>
       </div>
     </section>
+    <div class="spacer-50"></div>
     <section id="my-work">
       <!-- MY WORK -->
       <div class="flex-center m-vert-40">
@@ -108,11 +115,20 @@
               free consultation. Then we can move forward from there.</p></div>
           </div>
           <div class="cta flex-center">
-            <button class="ff-primary fw-bold fs-s clr-primary-100 bg-redz-400">Free consultation</button>
+            <button class="ff-primary fw-bold fs-s clr-primary-100 bg-red-400">Free consultation</button>
           </div>
         </div>
       </div>
     </section>
+    <footer class="pad-60">
+      <div>
+        <img src="./assets/logo.svg" alt="">
+      </div>
+      <button class="ff-primary fw-regular fs-s clr-primary-100 bg-primary-400">Free consultation</button>
+    </footer>
+
+
+
   </main>
 
 </body>
