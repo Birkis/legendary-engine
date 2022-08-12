@@ -9,7 +9,6 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700&display=swap" rel="stylesheet">
-  <script src="scripts.js"></script>
   <title>Frontend Mentor | Single-page design portfolio</title>
 </head>
 <body>
@@ -18,7 +17,7 @@
     <nav class="">
 
       <div class="logo"><img src="./assets/logo.svg" alt=""></div>
-      <button class="button ff-primary">Free Consultation</button>
+      <button class="button ff-primary bg-dark text-white">Free Consultation</button>
     </nav>
     <section id="heading" >
       <div class="ff-primary fs-2xl fw-bold lh-700">Design solutions made easy</div>
@@ -33,37 +32,37 @@
         <div class="card stacked" id="graphic-design">
           <div class="card-content">
             <img src="./assets/pattern-graphic-design.svg" alt="">
-            <p> Graphic Design</p>
+            <p class="ff-primary fw-regular fs-m text-white"> Graphic Design</p>
           </div>
         </div>
         <div class="card stacked" id="ui-ux">
           <div class="card-content">
             <img src="./assets/pattern-ui-ux.svg" alt="">
-            <p>  UI/UX</p>
+            <p class="ff-primary fw-regular fs-m text-white">  UI/UX</p>
           </div>
         </div>
         <div class="card stacked" id="apps">
           <div class="card-content">
             <img src="./assets/pattern-apps.svg" alt="">
-            <p>Apps</p>
+            <p class="ff-primary fw-regular fs-m text-white">Apps</p>
           </div>
         </div>
-        <div class="card stacked" id="photography">
+        <div class="card stacked" id="photo">
           <div class="card-content">
             <img src="./assets/pattern-photography.svg" alt="">
-            <p>Photography</p>
+            <p class="ff-primary fw-regular fs-m text-white">Photography</p>
           </div>
         </div>
         <div class="card stacked" id="illustrations">
           <div class="card-content">
             <img src="./assets/pattern-illustrations.svg" alt="">
-            <p>Illustrations</p>
+            <p class="ff-primary fw-regular fs-m text-white">Illustrations</p>
           </div>
         </div>
         <div class="card stacked" id="motion-graphics">
           <div class="card-content">
             <img src="./assets/pattern-motion-graphics.svg" alt="">
-            <p>Motion Graphics</p>
+            <p class="ff-primary fw-regular fs-m text-white">Motion Graphics</p>
           </div>
         </div>
       </div>
@@ -77,50 +76,55 @@
           <img src="./assets/image-amy.webp" alt="">
         </div>
         <div class="text-content">
-          <p class="ff-primary fs-xl lh-600 m-vert-20">  I’m Amy, and I’d love to work on your next project
+          <p class="ff-primary fs-xl lh-600 m-vert-20 title">  I’m Amy, and I’d love to work on your next project
           </p>
-          <p class="ff-body m-vert-20"> I love working with others to create beautiful design solutions. I’ve designed everything from brand illustrations
+          <p class="ff-body m-vert-20 body"> I love working with others to create beautiful design solutions. I’ve designed everything from brand illustrations
             to complete mobile apps. I’m also handy with a camera!</p>
-          <button class="button ff-primary m-8 bg-red-400">Free consultation</button>
+          <button class="button ff-primary m-8 bg-red-400 text-white">Free consultation</button>
         </div>
       </div>
     </section>
     <div class="spacer-50"></div>
-    <!-- <section id="my-work">
+    <section id="my-work">
      
-      <div class="flex-center m-vert-40">
+      <div class="m-vert-40">
         <p class="ff-primary text-primary fs-xl lh-500">My Work</p>
       </div>
-      <div class="slide-show">
-        <div><img src="./assets/image-slide-1.jpg" alt=""></div>
-        <div><img src="./assets/image-slide-2.jpg" alt=""></div>
-        <div><img src="./assets/image-slide-3.jpg" alt=""></div>
-        <div><img src="./assets/image-slide-4.jpg" alt=""></div>
-        <div><img src="./assets/image-slide-5.jpg" alt=""></div>
+      <div class="slide-show-container">
+        <div class="slide-show">
+          <img src="./assets/image-slide-1.jpg" alt="">
+          <img src="./assets/image-slide-2.jpg" alt="">
+          <img src="./assets/image-slide-3.jpg" alt="">
+          <img src="./assets/image-slide-4.jpg" alt="">
+          <img src="./assets/image-slide-5.jpg" alt="">
+        </div>
       </div>
 
-      <div class="slide-show-arrows flex-center m-vert-40">
-        <div class="left-arrow m-8"><img src="./assets/icon-arrow-left.svg" alt=""></div>
-        <div class="right-arrow m-8"><img src="./assets/icon-arrow-right.svg" alt=""></div>
+      <div class="slide-show-arrows spacer-50">
+        <div id="left-arrow" class="m-8"><img src="./assets/icon-arrow-left.svg" alt=""></div>
+        <div id="right-arrow" class="m-8"><img src="./assets/icon-arrow-right.svg" alt=""></div>
       </div>
 
-    </section> -->
+    </section>
+    <div class="spacer-30"></div>
     <section id="book-a-call">
       <!-- BOOK A CALL -->
-      <div class="container flex-center">
-        <div class="content">
+      <div class="container">
+        <div class="content bg-primary-400">
           <div class="text-content">
             <div><p class="ff-primary fs-xl clr-primary-100">Book a call with me</p></div>
             <div><p class="ff-primary fw-regular fs-medium clr-primary-100 lh-400">I’d love to have a chat to see how I can help you. The best first step is for us to discuss your project during a
               free consultation. Then we can move forward from there.</p></div>
           </div>
-          <div class="cta flex-center">
+
+          <div class="cta">
             <button class="ff-primary fw-bold fs-s clr-primary-100 bg-red-400">Free consultation</button>
           </div>
         </div>
       </div>
     </section>
-    <footer class="pad-60">
+    <div class="spacer-10"></div>
+    <footer class="spacer-40">
       <div>
         <img src="./assets/logo.svg" alt="">
       </div>
@@ -132,4 +136,6 @@
   </main>
 
 </body>
+<script src="scripts.js"></script>
+
 </html>
