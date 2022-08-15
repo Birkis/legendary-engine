@@ -399,7 +399,13 @@ nav {
   grid-template-columns: repeat(6, minmax(450px, 540px));
   grid-gap: 30px;
 }
-#my-work .slide-show-container .slide-show  > img {
+
+#my-work .slide-show-container .slide-show li {
+
+  list-style: none;
+}
+
+#my-work .slide-show-container .slide-show li > img {
   border-radius: 10px;
 }
 
